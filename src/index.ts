@@ -1,14 +1,17 @@
 import JSBI from 'jsbi'
-export { JSBI }
+
+export {JSBI}
 
 export {
-  BigintIsh,
-  ChainId,
-  TradeType,
-  Rounding,
-  FACTORY_ADDRESS,
-  INIT_CODE_HASH,
-  MINIMUM_LIQUIDITY
+    BigintIsh,
+    ChainId,
+    TradeType,
+    Rounding,
+    FACTORY_ADDRESS,
+    INIT_CODE_HASH,
+    FACTORY_MAPPING,
+    INIT_CODE_HASH_MAPPING,
+    MINIMUM_LIQUIDITY
 } from './constants'
 
 export * from './errors'
